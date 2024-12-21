@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+* :focus{
+    outline:none;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Open Scanns', sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 600px;
+}
+
+.box {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 8px 36px rgb(67 67 67 / 6%);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+form input {
+    padding:13px;
+    border: none;
+    background: #f6f6f5;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    min-width: 250px;
+}
+
+.btn {
+    background: linear-gradient(to right, #EA0909, #BD1E26);
+    BORDER: NONE;
+    COLOR: #ffffff;
+    PADDING: 6px 22px;
+    font-size: 14px;
+    text-decoration: none;
+    letter-spacing: 0.0px;
+    text-transform: uppercase;
+    min-height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #BD1E26, #EA090909);
+    color: #ffffff;
+}
+
+.result.box {
+    padding: 0px;
+    margin-top: 20px;
+}
